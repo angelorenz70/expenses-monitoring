@@ -17,6 +17,7 @@ export default function EditScreenInfo({ path }: { path: string }) {
           darkColor="rgba(255,255,255,0.8)">
           Open up the code for this screen:
         </Text>
+        <Text className='text-green-400'>HELLO WORLD</Text>
 
         <View
           style={[styles.codeHighlightContainer, styles.homeScreenFilename]}
